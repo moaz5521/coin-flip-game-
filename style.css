@@ -1,0 +1,42 @@
+* { box-sizing: border-box; }
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #1e1e1e;
+  color: #fff;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  margin: 0;
+}
+
+.container {
+  background: #2e2e2e;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.35);
+  width: min(92vw, 420px);
+}
+
+button {
+  margin-top: 16px;
+  padding: 12px 22px;
+  font-size: 18px;
+  border: none;
+  border-radius: 12px;
+  background: #4caf50;
+  color: #fff;
+  cursor: pointer;
+  transition: transform .08s ease, opacity .2s ease;
+}
+
+button:hover { opacity: .95; }
+button:active { transform: scale(0.98); }
+
+.result {
+  margin-top: 18px;
+  font-size: 22px;
+  font-weight: 700;
+  min-height: 32px; /* علشان المكان ما يتحركش */
+}
